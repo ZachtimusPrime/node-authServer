@@ -19,3 +19,4 @@ node index.js
 # starts the server with nodemon
 npm run dev
 ```
+The server is hosted at http://localhost:5000 and auth happens on route http://localhost:5000/auth/google
