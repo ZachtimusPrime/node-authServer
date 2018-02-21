@@ -1,8 +1,13 @@
 # Simple Node Auth Server #
 Simple oauth2.0 server written in node using passport.js to authenticate with Google.
 
-## What You'll Need to Add ##
-The server looks for your Google+ API client ID and secret in **/config/keys.js**, which should never be version controlled. You will need to create the file after cloning the project. The *.gitignore* file will prevent it from being uploaded. The **/config/keys.js** file should be populated as follows: 
+## What You'll Need to Setup ##
+**Google:**<br>
+You'll need to create a new Google API credential at https://console.developers.google.com and enable it for use with the Google+ API. Once you have enabled the Google+ access, set the access restrictions as shown.
+<p><kbd><img src="/images/googleSetup.jpg" /></kbd></p>
+
+**Auth Server:**<br>
+The server looks for your Google API credential client ID and secret in **/config/keys.js**, which should never be version controlled. You will need to create the file after cloning the project. The *.gitignore* file will prevent it from being uploaded. The **/config/keys.js** file should be populated as follows: 
 
 ```js
 module.exports = {
