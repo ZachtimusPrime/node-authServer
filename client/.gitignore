@@ -1,9 +1,5 @@
-# AUTH SERVER -------------
-node_modules
-dev.js
+# See https://help.github.com/ignore-files/ for more about ignoring files.
 
-
-# CLIENT ------------------
 # dependencies
 /node_modules
 
